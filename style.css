@@ -1,0 +1,80 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul{
+    
+    font-size: 18px;
+}
+
+tr
+{
+    
+    font-size: 18px;
+}
+
+th{
+    font-size: 24px ;
+    text-align: left;
+    color: darkred;
+}
+
+.rezept-bereich {
+    display: flex;
+    align-items: flex-start;
+    gap: 365px;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse; /* Verhindert doppelte Linien */
+  }
+  
+  th, td {
+    border: 1px solid black; /* Setzt eine schwarze, durchgezogene Linie */
+    padding: 8px;
+    text-align: left;
+  }
+
+
+.zubereitung {
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    max-width: 750px;
+}
+
+.zubereitung h2 {
+    color: darkred;
+    margin-top: 0;
+}
+
+.zubereitung ol {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.zubereitung ol li {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
